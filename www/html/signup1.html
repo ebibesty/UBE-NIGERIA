@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="../css/signup.css">
+											<!-- Linking css  -->
+		
+											<!-- Browser Page Name(Title))  -->
+
+		<title>
+		MIGHTYREIGN SIGN-UP
+		</title>
+</head>	
+	<body>
+<div class="con">		
+		<h2 id="signin1">Already a member? <b><a id="signin2" href="login.html">Log in</b></a></h2>
+		<p id="account">Register</p>	
+												
+												<!-- Form  -->	
+
+<br>
+		<br>
+		<form action="../php/signup1.php" method="post" novalidate > 
+		<div id="fname">
+<!-- 		<label>First Name</label><br>
+ -->			<input id="fbar"
+			type="text" name="first-name" 
+			placeholder=" * Enter First-name" required="Please enter your first-name">
+		</div>
+		<br>
+		<div id="lname">
+<!-- 		<label>Last Name</label><br>
+ -->			<input id="lbar" 
+ 			type="text" name="last-name"
+ 			placeholder=" * Enter Last-name" required="Please enter your last-name">
+		</div>
+		<br>
+		<div id="tel">
+<!-- 			<label>Telephone Number</label><br>
+ -->			<input id="tbar" type="telephone" name="telephone"
+			placeholder=" Phone number" required="Please enter your telephone number">
+		</div>
+		<br>
+		<div id="email">
+<!-- 			<label>Email Address</label><br>
+ -->			<input id="ebar" type="email" name="email" placeholder=" * Please enter your email" required="Please enter your email">
+		</div>
+		<br>
+		<div id="pass">
+<!-- 			<label>Password</label><br>
+ -->			<input id="pbar" type="password" name="password" placeholder=" * Please enter your password" required="Please enter your password">
+		</div> <br>
+		<div id="cpass">
+<!-- 			<label>Confirm Password</label><br>
+ -->			<input id="pbar" type="password" name="password_confirmation" placeholder=" * Please confirm your password" required="Please enter your password">
+		</div>		<br>
+<!-- 		<div id="sex">
+			<label>Country</label>
+			<select id="sbar" type="sex" name="country" required="country ommitted">
+ 			<option disabled selected>--Select--</option>,
+ 			<option required="gender ommitted" value="male">Nigeria</option>
+			<option required="gender ommitted" value="female">Abroad</option>
+		</select>
+		</div> <br> -->
+
+		<div id="sex">
+			<label>Gender:</label>
+<!-- 			<input type="radio">male
+			<input type="radio"required="gender ommitted">female -->
+			<select id="sbar" type="sex" name="gender" required="gender ommitted">
+ 			<option disabled selected>--Select--</option>,
+ 			<option required="gender ommitted" value="male">Male</option>
+			<option required="gender ommitted" value="female">Female</option>
+		</select>
+		</div><br>
+<div id="dob">
+			<label>Date of Birth:</label>
+			<input id="dbar" type="Date" name="Date of Birth" required="Date of Birth ommitted" value="--/--/----">
+		</div><br>
+		<div id="checkbox1">
+			<input type="checkbox" name="checkbox" required="checkbox"><label>Accept our <a id="tc" href="#t&c"><b>terms and conditions?</b></label></a>
+		</div><br>
+		<input id="submit1" type="submit" name="submit"
+		a href="#submit" value="Signup">
+				<!-- <a href="#" class="scrolltop scroll-top" id="scroll-top"> ^ </a> -->
+
+		</form>
+	</div>
+<!-- 	<footer>
+Copyright @ UBE-Nigeria.com - All right reserved.
+</footer> -->
+</body>
+
+</html>

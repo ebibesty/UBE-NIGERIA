@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:100vh;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(45deg, 
+	#0a0a0a, #3a4452);
+}
+.calculator{
+	border:1px solid #717377;
+	padding:20px;
+	border-radius: 16px;
+	background:transparent;
+	box-sizing: 0px
+}

@@ -1,0 +1,156 @@
+body{
+	font-family:verdena, Segoe UI ;
+	background: lightgrey;
+}
+h1{
+	color: blue;
+	text-align: center;
+}
+
+h2{
+	
+border:2px solid lightgrey;
+}
+/*.container1{
+	margin-top: 1em;
+	margin-bottom: 3em;
+}*/
+
+/*.container2{
+	margin-top: 3em;
+}*/
+
+table{
+/*	padding-top: 15em;
+	padding-left: 8em;
+	padding-bottom: 4em;
+	border:1px solid blue;*/
+	padding-top: .5em;
+	width: 100%;
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-bottom: .5em;
+	margin-bottom: 5em;
+	background: brown;
+	color:white;
+	font-weight:bold;
+}
+span{
+	color: brown;
+}
+.Create{
+	float:right;
+	margin-top: 34em;
+	margin-right: -21.5em;
+
+}
+form{
+	float:right;
+	margin-top: 9em;
+	margin-right: 20em;
+	background: #f0f2f5;
+	border:2px solid lightgrey;
+	width: 20%;
+	margin-bottom: 5em;
+}
+/*form input{
+	
+	text-align: left;
+	padding: 1em;
+}*/
+
+.submit{
+color:white;
+/*border:3px solid blue;*/
+background:darkblue;
+/*font-weight: bold;*/
+text-decoration: none;
+padding: .8em 2em;
+font-size: 1.3em;
+margin-bottom: 1em;
+border-radius: .3em;
+cursor: pointer;
+width: 100%;
+/*padding: 1em;*/
+}
+.pads{
+	width:20%;
+	padding:2em;
+	background-color: white;
+}
+.pad{
+	border:1px solid lightgrey;
+	margin-bottom:1em; 
+	width: 85%;
+	text-align: left;
+	padding: 1em;
+	font-size: 16px;
+}
+
+nav{
+	float: left;
+	padding-left:14em;
+	padding-top: 17em;
+	margin-bottom: 3em;
+}
+.colblue{
+	color: blue;
+	font-weight: bold;
+	font-size: 3em;
+}
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+.fpass{
+	color:darkblue;
+	font-weight: bold;
+	margin-bottom: 1em;
+	text-decoration: none;
+	padding-left: 3em
+
+}
+
+hr.line{
+color:grey;
+margin-top: 1.3em;
+
+}
+.fcreate{
+color:white;
+background:green;
+font-weight: bold;
+text-decoration: none;
+padding: .8em 2em;
+font-size: 14px;
+padding-bottom: 1em;
+border-radius: .5em;
+cursor: pointer;
+text-align: center;
+padding:1em;
+margin-top: 1.2em;
+
+}
+th{
+	text-align: center;
+	font-size: 25px;
+	color: navy;
+	background-color: pink;
+	border:none;
+}
+tr td{
+	padding-left: .5em;
+	background-color:whitesmoke;
+	color: navy;
+	padding: none;
+	border-bottom:1px solid;
+	border-spacing:none;
+	border-color: brown;
+}
+tr td last-child{
+border-bottom:none;	
+/*th.thstyling{
+	font-weight: bold; 
+	text-transform:uppercase;
+}*/

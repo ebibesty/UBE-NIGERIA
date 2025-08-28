@@ -1,0 +1,179 @@
+:root{
+--primary-color:#34496e;
+}
+
+.bg{
+	background:white;
+	color: black;
+}
+
+.container h1{
+ 	padding-top:15px;
+ 	color:white;
+ /*	width: 100%;*/
+ 	margin-top: 20px;
+ 	text-align: center;
+ }
+ .container h1 img{
+ 	color:white;
+ 	/*width:30px;*/
+ 	margin-left:10px;
+ 	/*margin-bottom: 20px;*/
+ }
+ .todo-app h2{
+ 	color:#002765;
+ 	/*display: flex;*/
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ }
+.container{
+	background: whitesmoke;
+	color: black;
+	margin:auto;
+	margin-top:5em;
+	border: 5px solid;
+	text-align: center;
+	width: 75%;
+	padding: 10px;
+	/*top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);*/
+}
+.container1{
+	background: whitesmoke;
+	color: black;
+	margin:auto;
+	margin-top:5em;
+	border: 5px solid;
+	text-align: center;
+	width: 95%;
+	padding: 10px;
+	/*	font-size:15px;*/
+	/*top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);*/
+}
+.col{
+	padding:1em;
+	border:1px solid black; 
+	text-align: center;
+	background: whitesmoke;
+	color: black;
+}
+
+.card-body{
+	margin: auto;
+	width:65%
+/*	font-size:15px;*/
+}
+.card-body1{
+	margin: auto;
+	width:100%
+/*	font-size:15px;*/
+}
+
+.bg-dark td{
+	background:black; 
+	color: white;
+	border:0.5px solid black; 
+	border-right: 0.5px solid white;
+}
+/*.bg-light td{
+	background:white; 
+	color: black;
+	border:0.5px solid black; 
+}*/
+
+td{	 
+    padding:0.5em 2.4em;
+    color: black;
+    background: white;
+	border:1px solid black; 
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+.td1{	 
+    padding:0.5em 2.4em;
+    color: black;
+    background: white;
+	border:1px solid black; 
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+.td2{
+	padding:0em;
+	font-size:11px;
+	font-weight: bold;
+}
+.td1{
+	padding:0.5em 2.4em;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+table{
+	background: black;
+	color: white;
+	border-collapse: collapse;
+}
+
+
+@media only screen and (max-width:965px) and (min-width:350px){ 
+    .container{
+	margin:auto;
+	margin-top:5em;
+	border: 5px solid;
+	text-align: center;
+	width: 85%;
+	padding: 5px;
+	font-size: 10px;
+	}
+
+	.card-body{
+	margin: auto;
+	width:95%
+/*	font-size:15px;*/
+}
+
+td{	 
+    padding:0.5em 2.4em;
+    color: black;
+    background: white;
+	border:1px solid black; 
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+}
+
+@media only screen and (max-width:550px) and (min-width:250px){
+
+.card-body{
+	margin: none;
+	margin-left: 1em;
+	width: 96%
+
+	}
+     .container{
+	margin:auto;
+	margin-left: -1em;
+	margin-top:5em;
+	border: 5px solid;
+	text-align: center;
+	width: 100%;
+	padding: 5px;
+	font-size: 10px;
+	}
+td{	 
+    padding:0.5em 2.4em;
+    color: black;
+    background: white;
+	border:1px solid black; 
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+}

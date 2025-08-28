@@ -1,0 +1,221 @@
+:root{
+       --primary-color:#34496e;
+       }
+body{
+       color: var(--primary-color);
+       font-family:tahoma;
+       margin: 0;
+       background-color:lightgrey;
+       }
+.navbar{
+       background-color: var(--primary-color);
+       padding: 1em;
+       height: 3em;
+       }
+
+       .logo{
+              padding:.8em 1em;
+              padding-left: 2.5em;
+              }
+              
+       .logo a{
+              text-decoration: none;
+              font-weight: bold;
+              color: black;
+              font-size: 1.2em;
+              }
+span{
+       color:white;
+}
+
+       h2{
+       color: var(--primary-color);
+       font-family: book antique; 
+       font-weight: bold; 
+       font-size: 40px;
+       }
+       
+       #index{
+       color:var(--primary-color); 
+       font-family:backjack; 
+       font-style: bold; 
+       font-size: 22px; 
+       font-style: italic;
+       }
+       #index:hover{
+           text-decoration:var(--primary-color);
+       }
+       nav{
+           margin-top: none;
+           margin-top: -1em;
+           margin-right: -8px;
+           margin-left: -8px;
+           height: 3.2em;
+           text-transform:uppercase;
+           
+       }
+       .mobile-menu {
+              display:none;
+       }
+       .mobile-menu-exit{
+              display:none;
+       }
+       
+       nav a{
+           color: white;
+           text-decoration: none;
+           padding: 14px 12.5px;
+           margin-left: -1em;
+       }
+       
+       nav a:hover, a:active {
+           background-color: lightgrey;
+           color: var(--primary-color);
+       }
+       #home1{
+           margin-left: .5em;
+       }
+       #home{
+           background-color: lightgrey;
+           color: var(--primary-color);
+           padding: 14px 15px;
+           margin-left: 3em;
+           margin-top: .35em;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+       }
+       #home:active {
+           background-color: var(--primary-color);
+           color:var(--primary-color);
+       }
+       #home:hover{
+           background-color: lightgrey;
+           color: white;
+       }
+       
+       .cities {
+           font-family: backjack;
+           font-size: 18px;
+           line-height: 28px;
+           padding:0em 2em;
+       
+       }
+       
+       footer{
+       padding: 15px 30px;
+       background-color: var(--primary-color);
+       color:white;
+       text-align: center;
+       margin-top: 0em;
+       margin-right: -8px;
+       margin-left: -8px;
+       
+       }
+       #footer2{
+           margin-top: 4.3em;
+       }
+       #ol{
+           color:var(--primary-color); 
+           font-family:backjack; 
+           font-size: 18px; 
+           font-style: italic;
+           }
+       #ol:hover{
+           color:blue;
+       }
+       
+       
+       #ph{
+           font-size: 22px; 
+       }
+       
+       
+       @media (max-width: 422px) {
+       
+       nav{
+           display: none;
+       }
+       
+       }
+       
+       
+       @media (max-width: 497px) {
+       
+       #home3{
+           margin-left: 2.5em;
+       
+       }
+       nav #home4{
+           margin-left: -.5em;
+       
+       }
+       
+       }
+       
+       @media (max-width: 553px) {
+       
+       #home4{
+           margin-left: 3.5em;
+       
+       }
+       nav #home5{
+           margin-left: .5em;
+       
+       }
+       
+       
+       }
+       
+       @media (max-width: 620px) {
+       
+       #home5{
+           margin-left: 3.5em;
+       
+       }
+       nav #home6{
+           margin-left: .5em;
+       
+       }
+       
+       
+       }
+       
+       
+       @media (max-width: 679px) {
+       
+       nav {
+               height: 6.5em;
+               
+       }
+       nav a{
+           color: white;
+           text-decoration: none;
+           padding: 14px 12.5px;
+           margin-left: -1em;
+       }
+       
+       nav a:hover, a:active {
+           background-color: lightgrey;
+           color: var(--primary-color);
+       }
+       }
+       
+       @media (max-width: 320px) {
+       
+       h2{
+           line-height:1em;
+           margin-top: 1em;
+       }
+       nav{
+           margin-top:-1em;
+           line-height:2em;
+           padding-top: 1.5em;
+           padding-right:1em;
+       }
+       
+       nav a:hover{
+           color:blue;
+       }
+       
+       }
